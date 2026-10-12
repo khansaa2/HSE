@@ -1,0 +1,34 @@
+# Core FastAPI
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+aiosqlite==0.20.0          # SQLite async (développement)
+asyncpg==0.30.0            # PostgreSQL async (production)
+alembic==1.14.0
+# psycopg2-binary==2.9.10  # Décommenter si PostgreSQL utilisé
+
+# Auth
+python-jose[cryptography]==3.3.0
+bcrypt==4.0.1
+pydantic[email]>=2.10.3
+
+# Settings
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# Computer Vision
+ultralytics==8.3.50
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+
+# Geometry (parking module)
+shapely==2.0.6
+
+# HTTP client (video download)
+httpx==0.28.1
+
+# ONNX inference (CPU speedup)
+onnxruntime==1.20.1
